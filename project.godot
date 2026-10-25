@@ -1,0 +1,26 @@
+; Archivo de configuración del proyecto Godot.
+
+config_version=5
+
+[application]
+
+config/name="Mini STS - Simulador de grúa portuaria"
+config/description="Prototipo de simulador de grúa pórtico de muelle (ship-to-shore) para entrenamiento de operadores."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
+[physics]
+
+common/physics_ticks_per_second=120
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=2
